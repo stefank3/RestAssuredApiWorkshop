@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Testing">
+    <listeners>
+        <listener class-name="com.rest.utils.listeners.TestListener"/>
+    </listeners>
+    <test name="Swagger Pet Store API Tests">
+        <classes>
+            <class name="com.rest.tests.RestApiTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
